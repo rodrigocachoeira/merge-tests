@@ -1,6 +1,17 @@
-<template>
+<templat>
   <div>
-    <h1>User</h1>
-    <p>Hello World</p>
+    <h1>My Profile</h1>
+    <p>My name is John Doe</p>
   </div>
-</template>
+</templat>
+
+<script>
+export default {
+  name: 'User',
+  
+  mounted () {
+    console.log('Hello World');
+  }
+
+};
+</script>
